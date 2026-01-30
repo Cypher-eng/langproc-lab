@@ -24,5 +24,6 @@ extern int yylex();
 // (if relevant for the token type) into yylval.
 extern TokenValue yylval;
 
+extern int removed_count;
 
 #endif
